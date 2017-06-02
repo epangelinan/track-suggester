@@ -5,3 +5,8 @@ body {
 .result {
   display: none;
 }
+
+.bestTrack {
+  color: red;
+  font-family: fantasy;
+}

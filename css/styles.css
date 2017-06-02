@@ -2,11 +2,12 @@ body {
   background-color: lightblue;
 }
 
-.result {
-  display: none;
-}
-
 .bestTrack {
   color: red;
   font-family: fantasy;
+  display: none;
+}
+
+.result, .android, .webDesign, .cSharp {
+  display: none;
 }

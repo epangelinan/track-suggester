@@ -85,6 +85,14 @@ $(document).ready(function(){
       result = "C#/.NET";
     }
 
-    $(".bestTrack").text(result);
+    $(".bestTrack").text(result).fadeIn();
+
+    if (result === "Java/Android") {
+      $(".android").slideDown();
+    } else if (result === "CSS/Design") {
+      $(".webDesign").slideDown();
+    } else if (result === "C#/.NET") {
+      $(".cSharp").slideDown();
+    }
   });
 });

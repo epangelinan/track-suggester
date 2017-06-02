@@ -14,27 +14,22 @@ $(document).ready(function(){
 
   $(".important-group").change(function() {
     important = parseInt($("#important").val());
-    //alert(important);
   });
 
   $(".appType-group").change(function() {
     appType = parseInt($("#appType").val());
-    //alert(appType);
   });
 
   $(".company-group").change(function() {
     company = parseInt($("#company").val());
-    //alert(company);
   });
 
   $(".trait-group").change(function() {
     trait = parseInt($("#trait").val());
-    //alert(trait);
   });
 
   $(".activity-group").change(function() {
     activity = parseInt($("#activity").val());
-    //alert(activity);
   });
 
   $('form').submit(function(event) {
@@ -79,7 +74,6 @@ $(document).ready(function(){
       c_track += 1;
     }
 
-    //alert("submitted the form");
     $('form').hide();
     $(".result").show();
 
@@ -92,9 +86,5 @@ $(document).ready(function(){
     }
 
     $(".bestTrack").text(result);
-    //alert("css:" + css_track);
-    //alert ("java:" + java_track);
-    //alert("c:" + c_track);
-    //alert("result is " + result)
   });
 });

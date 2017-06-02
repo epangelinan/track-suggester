@@ -77,11 +77,11 @@ $(document).ready(function(){
     $('form').hide();
     $(".result").show();
 
-    if (css_track >=3) {
+    if (css_track >= 3) {
       result = "CSS/Design";
-    } else if (java_track >=3) {
+    } else if (java_track >= 3) {
       result = "Java/Android";
-    } else if (c_track >=3) {
+    } else if (c_track >= 3) {
       result = "C#/.NET";
     }
 

@@ -1,9 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Track Suggester </h1>
+      <form>
+        <h3>Please answer the following questions to determine which tracks suit your interests!</h3>
+        <div class="form-group">
+          <label for="important">What is most important to you?</label>
+          <select class="form-control" id="important">
+            <option></option>
+            <option>An app that looks visually appealing</option>
+            <option>An app that works correctly</option>
+            <option>An app that stores a lot of data</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="appType">Your favorite app is on which platform?</label>
+          <select class="form-control" id="appType">
+            <option></option>
+            <option>Web</option>
+            <option>Mobile device</option>
+            <option>Computer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="company">Favorite company</label>
+          <select class="form-control" id="company">
+            <option></option>
+            <option>Amazon</option>
+            <option>Snap Chat</option>
+            <option>Microsoft</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="trait">Your strongest trait</label>
+          <select class="form-control" id="trait">
+            <option></option>
+            <option>Creative</option>
+            <option>Logical</option>
+            <option>Organized</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="activity">Favorite activity</label>
+          <select class="form-control" id="activity">
+            <option></option>
+            <option>Shopping</option>
+            <option>Play video games</option>
+            <option>Travelling</option>
+          </select>
+        </div>
 
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
